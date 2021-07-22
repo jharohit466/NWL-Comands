@@ -9,8 +9,8 @@
 	sudo apt-get install qt5-default mercurial
 	sudo apt install gir1.2-goocanvas-2.0 python3-gi python3-gi-cairo python3-pygraphviz gir1.2-gtk-3.0 ipython3 
 	sudo apt install gdb valgrind 
-	sdo apt install doxygen graphviz imagemagick
-	sdo apt install texlive texlive-extra-utils texlive-latex-extra texlive-font-utils dvipng latexmk
+	sudo apt install doxygen graphviz imagemagick
+	sudo apt install texlive texlive-extra-utils texlive-latex-extra texlive-font-utils dvipng latexmk
 	sudo apt install python3-sphinx dia 
 	sudo apt install tcpdump
 	sudo apt install sqlite sqlite3 libsqlite3-dev
@@ -18,16 +18,16 @@
 ##Optional:
 	sudo apt install libgtk-3-dev
 
-## Downloading ns 3 with wget
-	sudo apt install wget
-	wget https://www.nsnam.org/releases/ns-allinone-3.33.tar.bz2
-
 ## Configure directory
 	mkdir workspace
 	cd workspace
 
+## Downloading ns 3 with wget
+	sudo apt install wget
+	wget https://www.nsnam.org/releases/ns-allinone-3.33.tar.bz2
+
 ## Unzipping tarball
-	tar -xf /home/$user/Downloads/ns-allinone-3.33.tar.bz2 .
+	tar -xf ns-allinone-3.33.tar.bz2 .
 
 ## Compiling ns-3
 	cd ns-allinone-3.33
@@ -40,22 +40,22 @@
 sudo apt install wireshark
 
 
-## NS 3
+## NS 3 -- Non GUI
 
 	cd
 	cd /workspace/ns-allinone-3.33/ns-3.33
 	./waf -d debug --enable-examples --enable-test configure
 	
-	cd examples/tutorial/
+### Running first example
+	cd examples/tutorial/ 
 	cp first.cc ../../scratch/
-	
 	cd ../..
 	./waf --run scratch/first
-
+### running second example
 	cp examples/tutorial/second.cc scratch/
 	./waf --run scratch/second
 
-##NetAnim3 installation
+##NetAnim3 installation -- GUI
 #### verifying prerequisite 
 	sudo apt install mercurial qt5-default
 #### Download and configure NetAnim
