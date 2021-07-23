@@ -153,10 +153,8 @@ cp examples/tutorial/second.cc scratch/
 	sudo apt install mercurial qt5-default
 #### Download and configure NetAnim
 	cd
-	cd workspace/
-	hg clone http://code.nsnam.org/netanim
-	
-	cd netanim/
+	cd workspace/ns-allinone-3.33
+	cd cd netanim-3.108/
 	make clean
 	qmake NetAnim.pro
 	make
