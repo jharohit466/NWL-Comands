@@ -128,7 +128,7 @@ cd ns-3.33
 ```
 cd
 
-cd /workspace/ns-allinone-3.33/ns-3.33
+cd workspace/ns-allinone-3.33/ns-3.33
 
 ./waf -d debug --enable-examples --enable-test configure
 ```
