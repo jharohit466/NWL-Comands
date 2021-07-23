@@ -7,7 +7,17 @@ to verify type
 ```
 pwd
 ```
+It shuld look like this
 
+```
+/home/<username>
+```
+
+if not type
+
+```
+pwd
+```
 
 ## Update system
 	
