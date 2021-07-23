@@ -1,5 +1,5 @@
-# NWL-Comands
-NWL
+# Installing and configuring NS3 and NetAnim Simulator in Ubuntu
+
 copy all commands line by line 
 and paste it in terminal
 make sure you are in home (~)
