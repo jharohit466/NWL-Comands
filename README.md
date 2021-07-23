@@ -16,8 +16,9 @@ It shuld look like this
 if not type
 
 ```
-pwd
+cd
 ```
+and press enter
 
 ## Update system
 	
