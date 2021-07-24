@@ -100,7 +100,7 @@ if not installed it will start installing wget
 #### Download ns3 tar 
 
 ```
-wet https://www.nsnam.org/releases/ns-allinone-3.33.tar.bz2
+wget https://www.nsnam.org/releases/ns-allinone-3.33.tar.bz2
 ```
 
 #### Unzipping tarball
